@@ -17,7 +17,9 @@ const projects_add = () => {
             name: projectName.value,
         
           };
-          addProject(newProject).then(() => router.navigate("/projects"));
+          addProject(newProject)
+          .then(() => alert("Them thanh cong"))
+          .then(() => router.navigate("/projects"));
         });
       });
    return `

@@ -17,7 +17,9 @@ useEffect(() => {
         id : id,
         name: projectName.value,
       };
-      updateProject(newProject).then(() => router.navigate("/projects"));
+      updateProject(newProject)
+      .then(() => alert("Sua thanh cong"))
+      .then(() => router.navigate("/projects"));
                                
     });
   });

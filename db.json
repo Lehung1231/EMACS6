@@ -1,12 +1,16 @@
 {
   "products": [
     {
-      "id": 1,
-      "name": "12312"
+      "name": "etry",
+      "id": 1
     },
     {
       "id": 2,
-      "name": "hug"
+      "name": "wreterttr"
+    },
+    {
+      "name": "erthghhj",
+      "id": 3
     }
   ]
 }
